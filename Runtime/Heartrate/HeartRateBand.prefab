@@ -153,7 +153,7 @@ MonoBehaviour:
           - rid: 1899714533051334908
           - rid: 1899714533051334909
         saved: 0
-        slider: 0
+        slider: 1
         sliderInactiveAtZero: 0
         securityEnabled: 0
         defaultOn: 0
