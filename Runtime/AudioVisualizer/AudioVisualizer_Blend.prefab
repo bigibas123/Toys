@@ -9,44 +9,56 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e85e2d0a7a6ef404e9ecfa47ca3e0c45, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e85e2d0a7a6ef404e9ecfa47ca3e0c45, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e85e2d0a7a6ef404e9ecfa47ca3e0c45, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e85e2d0a7a6ef404e9ecfa47ca3e0c45, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.38655782
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e85e2d0a7a6ef404e9ecfa47ca3e0c45, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.9438275
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e85e2d0a7a6ef404e9ecfa47ca3e0c45, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.00047767162
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e85e2d0a7a6ef404e9ecfa47ca3e0c45, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.36449477
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e85e2d0a7a6ef404e9ecfa47ca3e0c45, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.011657982
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e85e2d0a7a6ef404e9ecfa47ca3e0c45, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.013111709
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e85e2d0a7a6ef404e9ecfa47ca3e0c45, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.93104017
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e85e2d0a7a6ef404e9ecfa47ca3e0c45, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e85e2d0a7a6ef404e9ecfa47ca3e0c45, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e85e2d0a7a6ef404e9ecfa47ca3e0c45, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -90
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: e85e2d0a7a6ef404e9ecfa47ca3e0c45, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -54,7 +66,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: c74f5ea8b8d9b904d88c08c881e88544, type: 2}
     - target: {fileID: 919132149155446097, guid: e85e2d0a7a6ef404e9ecfa47ca3e0c45, type: 3}
       propertyPath: m_Name
-      value: AudioVisualizer
+      value: AudioVisualizer_Blend
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -65,7 +77,13 @@ PrefabInstance:
       addedObject: {fileID: 1069525644933694698}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e85e2d0a7a6ef404e9ecfa47ca3e0c45, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 193197668145270578}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e85e2d0a7a6ef404e9ecfa47ca3e0c45, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 3785343289959538251}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e85e2d0a7a6ef404e9ecfa47ca3e0c45, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1768071330974313999}
   m_SourcePrefab: {fileID: 100100000, guid: e85e2d0a7a6ef404e9ecfa47ca3e0c45, type: 3}
 --- !u!1 &4962941580773043358 stripped
 GameObject:
@@ -147,6 +165,90 @@ MonoBehaviour:
         invertRestLogic: 0
         expandIntoTransition: 1
     - rid: 1334312718565113858
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 4962941580773043358}
+        mode: 0
+--- !u!114 &193197668145270578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4962941580773043358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1163.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 1334312718565113857
+  references:
+    version: 2
+    RefIds:
+    - rid: 1334312718565113857
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Props/AudioVisualizer/Local On
+        state:
+          actions: []
+        saved: 0
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 1
+        localState:
+          actions:
+          - rid: 1334312781786645057
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 1334312781786645057
       type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
         version: 1
@@ -239,3 +341,87 @@ MonoBehaviour:
         localOnly: 0
         remoteOnly: 0
         obj: {fileID: 4962941580773043358}
+--- !u!114 &1768071330974313999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4962941580773043358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1163.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 1334312781786644777
+  references:
+    version: 2
+    RefIds:
+    - rid: 1334312781786644777
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Props/AudioVisualizer/Scale
+        state:
+          actions:
+          - rid: 1334312781786644790
+        saved: 0
+        slider: 1
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 1334312781786644790
+      type: {class: ScaleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 4962941580773043358}
+        scale: 10
