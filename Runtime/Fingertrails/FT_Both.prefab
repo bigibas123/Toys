@@ -99,7 +99,7 @@ MonoBehaviour:
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: Fingertrail/Brightness
+        name: Props/Fingertrail/Brightness
         state:
           actions:
           - rid: 1001
@@ -206,7 +206,7 @@ MonoBehaviour:
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: Fingertrail/Hue
+        name: Props/Fingertrail/Hue
         state:
           actions:
           - rid: 1001
@@ -313,7 +313,7 @@ MonoBehaviour:
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: Fingertrail/On
+        name: Props/Fingertrail/On
         state:
           actions:
           - rid: 1001
@@ -423,7 +423,7 @@ MonoBehaviour:
             guid: 1f37a060fb33cf843b08ed7b932256cd
             id: 906347caf7e8684438581aaaccf6395d|Packages/cc.dingemans.bigibas123.toys/Runtime/Fingertrails/Menu/FT_Menu.asset
             objRef: {fileID: 11400000, guid: 906347caf7e8684438581aaaccf6395d, type: 2}
-          prefix: Fingertrail
+          prefix: Props/Fingertrail
         prms:
         - parameters:
             version: 1
