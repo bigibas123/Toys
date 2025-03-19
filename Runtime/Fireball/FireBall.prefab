@@ -98,7 +98,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1163.0
+  vrcfuryVersion: 1.1210.0
   somethingIsBroken: 0
   config:
     features: []
@@ -192,7 +192,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1163.0
+  vrcfuryVersion: 1.1210.0
   somethingIsBroken: 0
   config:
     features: []
@@ -246,7 +246,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1163.0
+  vrcfuryVersion: 1.1210.0
   somethingIsBroken: 0
   config:
     features: []
@@ -450,6 +450,7 @@ MonoBehaviour:
   height: 2
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
+  localOnly: 0
   collisionTags:
   - CigCollission
 --- !u!54 &9030488930401013181
@@ -722,7 +723,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1163.0
+  vrcfuryVersion: 1.1210.0
   somethingIsBroken: 0
   config:
     features: []
