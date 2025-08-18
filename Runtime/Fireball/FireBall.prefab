@@ -217,11 +217,11 @@ MonoBehaviour:
         forceMergedName: 
         forceOneWorldScale: 0
         recursive: 1
-        alignPosition: 1
-        alignRotation: 1
+        alignPosition: 0
+        alignRotation: 0
         alignScale: 1
         autoScaleFactor: 1
-        scalingFactorPowersOf10Only: 1
+        scalingFactorPowersOf10Only: 0
         skinRewriteScalingFactor: 1
         useOptimizedUpload: 0
         useBoneMerging: 0
