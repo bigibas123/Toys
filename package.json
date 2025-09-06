@@ -9,7 +9,7 @@
   "unity": "2022.3",
   "description": "Collection of prefabs by bigibas123",
   "vpmDependencies": {
-	"cc.dingemans.bigibas123.bigishader": ">=2.1.0",
+	"cc.dingemans.bigibas123.bigishader": ">=3.2.2",
 	"com.vrcfury.vrcfury": ">=1.1210.0"
   },
   "url": "https://github.com/bigibas123/Toys.git",
