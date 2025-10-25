@@ -49,7 +49,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1210.0
+  vrcfuryVersion: 1.1265.0
   somethingIsBroken: 0
   config:
     features: []
@@ -62,7 +62,7 @@ MonoBehaviour:
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: 
+        name: Props/Heartrateband/Enabled
         state:
           actions:
           - rid: 1899714533051334905
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1210.0
+  vrcfuryVersion: 1.1265.0
   somethingIsBroken: 0
   config:
     features: []
@@ -146,7 +146,7 @@ MonoBehaviour:
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: 
+        name: Props/Heartrateband/Rate_Normalized
         state:
           actions:
           - rid: 1899714533051334907
@@ -257,7 +257,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1210.0
+  vrcfuryVersion: 1.1265.0
   somethingIsBroken: 0
   config:
     features: []
